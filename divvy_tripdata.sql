@@ -1,5 +1,8 @@
---Target question: How do annual members and casual riders use Cyclistic bikes differently?
+--Background:Investigating the dynamics of bike-sharing usage through data analysis, our study aims to uncover how 
+--different user groups interact with the Cyclistic bike-share system. 
 
+--Target question: How do annual members and casual riders use Cyclistic bikes differently?
+--Data cleaning partly done in Excel before import the data.
 --Import the last 12 months(202302-202401) bike share history.
 
 --Preview data.
