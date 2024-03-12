@@ -53,7 +53,7 @@ the data followed the constraints for its feild.the data makes sense for analysi
 Select 
 	sum(Cast(ride_length_mn as decimal(10,2))) as total_ride_length_mn,
 	member_casual
-FROM [Casestudy].[dbo].[202302-divvy-tripdata]
+FROM [Casestudy].[dbo].[joined_data]
 Group By
 	member_casual;
 
@@ -238,7 +238,4 @@ GROUP BY
 Order by
 	total_rides desc; 
 
-/**Through meticulous SQL analysis amalgamating six datasets, I delineated the divergent riding behaviors of Cyclistic's members and casual
-riders, revealing members' higher ride frequency and casual riders' penchant for longer journeys. Surprisingly, both groups converge on 
-Wednesdays as their peak riding day, with August 2023 standing out as the pinnacle of ridership, laying a compelling foundation for 
-strategic marketing initiatives.**/
+--Following visualization in Tableau to reveal trends and recommendations.
